@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Russo One';
+  src: url('./fonts/RussoOne.ttf') format('truetype');
+}
+
+.root {
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Russo One';
+  letter-spacing: .2em;
+  color: #dbedf3;
+  background-color: #17223b;
+}

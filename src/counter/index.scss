@@ -1,0 +1,19 @@
+.counter {
+  margin: auto;
+  z-index: 1000;
+
+  &__ {
+    &header {
+      font-size: 100px;
+    }
+
+    &count {
+      text-align: center;
+      font-size: 120px;
+    }
+
+    &days {
+      font-size: 50px;
+    }
+  }
+}
